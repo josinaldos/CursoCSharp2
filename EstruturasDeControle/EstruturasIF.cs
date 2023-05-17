@@ -9,6 +9,19 @@ namespace CursoCSharp.EstruturasDeControle {
         public static void Executar() {
 
 
+            /* CONVERTENDO TRY PARSE */
+            Console.WriteLine("Digite um número:");
+            string palavra = Console.ReadLine();
+            int numero;
+            int.TryParse(palavra, out numero);
+            Console.WriteLine($"Resultado: {numero}");
+
+            /*Enquanto o Parse faz a conversão da informação
+             * o TryParse verifica se é possível converter para depois
+             * fazer a conversão*/
+
+            /*
+
             Console.WriteLine("Qual é a nota do aluno");
             double n1= double.Parse(Console.ReadLine());
             Console.WriteLine("Qual é a nota do aluno");
@@ -27,7 +40,7 @@ namespace CursoCSharp.EstruturasDeControle {
                 Console.WriteLine("Aluno reprovado");
             }
 
-
+            */
         }
     }
 }
