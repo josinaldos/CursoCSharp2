@@ -22,7 +22,8 @@ namespace CursoCSharp {
                 {"Estruturas IF -Estruturas de Controle",EstruturasIF.Executar },
                 {"Exercicios If Else -Estruturas de Controle",ExerciciosIfElse.Executar },
                 {"Estruturas Switch - Estruturas de Controle",EstruturasSwitch.Executar },
-                {"Estruturas Wile e For - Estruturas de Controle",EstruturaWlieeFor.Executar }
+                {"Estruturas Wile e For - Estruturas de Controle",EstruturaWlieeFor.Executar },
+                {"Exercicio de Repeticao - Estruturas de Controle",ExercicioRepeticao.Executar}
                 
             });
 
