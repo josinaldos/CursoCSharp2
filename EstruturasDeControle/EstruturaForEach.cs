@@ -11,6 +11,13 @@ namespace CursoCSharp.EstruturasDeControle {
             foreach(var letra in palavra) {
                 Console.WriteLine(letra);
             }
+
+            //percorrendo um array
+
+            var alunos = new string[] { "josé", "Cleiton", "Maria", "josenildo" };
+            foreach (var nome in alunos) {
+                Console.WriteLine(nome); 
+            }
         }
     }
 }
