@@ -30,7 +30,8 @@ namespace CursoCSharp {
              {"Membros - Classes e Métodos",Membros.Executar },
              {"Construturores - Classses e Métodos",Construtores.Executar},
              {"Métodos com Retorno - Classes e Métodos",MetodosComRetorno.Executar },
-             {"Exercicios Metodos Com Retorno - Classes e Métodos",ExerciciosMetotdosComRetorno.Executar }
+             {"Exercicios Metodos Com Retorno - Classes e Métodos",ExerciciosMetotdosComRetorno.Executar },
+             {"Métodos Estáticos - Classes e Métodos",MetodosEstaticos.Executar }
                 
             });
 
