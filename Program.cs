@@ -31,8 +31,11 @@ namespace CursoCSharp {
              {"Construturores - Classses e Métodos",Construtores.Executar},
              {"Métodos com Retorno - Classes e Métodos",MetodosComRetorno.Executar },
              {"Exercicios Metodos Com Retorno - Classes e Métodos",ExerciciosMetotdosComRetorno.Executar },
-             {"Métodos Estáticos - Classes e Métodos",MetodosEstaticos.Executar }
-                
+             {"Métodos Estáticos - Classes e Métodos",MetodosEstaticos.Executar },
+                {"Params - Classes e Métodos",Params.Executar },
+                {"Get e Set - Classes e ´Métodos",GetSet.Executar },
+                {"Get e Set Segundo Exemplo - Classes e Métosdos",GetESetSegundoExemplo.Execuar },
+                {"Exercicio1 Get e Set - Classes e Métodos",Exercicio1GetSet.Executar }
             });
 
             central.SelecionarEExecutar();
