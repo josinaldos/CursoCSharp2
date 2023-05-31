@@ -35,7 +35,9 @@ namespace CursoCSharp {
                 {"Params - Classes e Métodos",Params.Executar },
                 {"Get e Set - Classes e ´Métodos",GetSet.Executar },
                 {"Get e Set Segundo Exemplo - Classes e Métosdos",GetESetSegundoExemplo.Execuar },
-                {"Exercicio1 Get e Set - Classes e Métodos",Exercicio1GetSet.Executar }
+                {"Exercicio1 Get e Set - Classes e Métodos",Exercicio1GetSet.Executar },
+                {"Exercicio 2 Get e Set - Classes e Métodos",Exercicio2GetESet.Executar },
+                {"Exercicio 3 Get e Set - Classes e Métodos",Exercicio3GetESet.Executar }
             });
 
             central.SelecionarEExecutar();

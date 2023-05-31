@@ -10,7 +10,7 @@ namespace CursoCSharp.ClasseEMetodos {
 
             private string nome;
             private double altura;
-            private DateTime nascimento;
+            private int nascimento;
 
             public string Nome {
                 get {
@@ -30,7 +30,7 @@ namespace CursoCSharp.ClasseEMetodos {
                 }
 
             }
-              public DateTime Nascimento {
+              public int Nascimento {
 
                 get {
                     return nascimento;
@@ -46,8 +46,9 @@ namespace CursoCSharp.ClasseEMetodos {
                 Console.WriteLine( $"Qual e o{nome} sua {altura} e {nascimento}");
             }
 
-            public  int Calculo() {
-               // return DateTime.Today.Year – Nascimento.Year;
+            public int Calculo() {
+
+                return 2023 - nascimento;
             }
 
 
@@ -57,8 +58,13 @@ namespace CursoCSharp.ClasseEMetodos {
 
             Pessoa pessoa1 = new Pessoa();
 
-            pessoa1. Nome = "Marcos";
+            pessoa1.Nome = "Marcos";
             pessoa1. Altura = 1.85;
+            pessoa1.Nascimento = 1976;
+
+
+            Console.WriteLine($"Seu {pessoa1.Nome} e sua {pessoa1.Altura} e data de {pessoa1.Nascimento} ");
+            
             
             
 
