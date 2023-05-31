@@ -29,7 +29,7 @@ namespace CursoCSharp.ClasseEMetodos {
 
                 set {
 
-                    if(tipo == "cachorro" || tipo == "gato" || tipo == "ave") {
+                    if(tipo == "cachorro" || tipo == "gato" || tipo == "ave" || tipo == "peixe") {
                         tipo = value;
                     } else {
                         tipo = "ave";
