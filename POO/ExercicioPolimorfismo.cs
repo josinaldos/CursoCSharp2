@@ -33,20 +33,21 @@ namespace CursoCSharp.POO {
             Juridico pessoa2 = new Juridico();
 
 
-            Console.WriteLine("Digite o seu tipo 1 para fisico e 2 para juridico");
+            Console.WriteLine("Escreva se você é fisico ou juridico");
             pessoa.Tipo = Console.ReadLine();
 
             if(pessoa.Tipo == "fisico") {
                 Console.WriteLine("Digite seu cpf:");
                 pessoa1.Cpf = Console.ReadLine();
-                Console.WriteLine("Seu nome é "+pessoa1.Nome+" e seú cpf é "+pessoa1.Cpf);
-            } else if (pessoa.Tipo == "Juridico") {
+                Console.WriteLine("Seu nome é "+pessoa1.Cpf);
+            } else if (pessoa.Tipo == "juridico") {
                 Console.WriteLine("Digite seu cnpj");
                 pessoa2.Cnpj = Console.ReadLine();
-                Console.WriteLine("Seu cnpj é"+pessoa2.Cnpj+" e seu cnpj "+pessoa2.Cnpj);
+                Console.WriteLine("Seu cnpj é"+pessoa2.Cnpj);
+            } else {
+                Console.WriteLine("Código inválido");
             }
         
-           
            
 
         }
